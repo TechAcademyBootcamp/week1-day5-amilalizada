@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin:auto;
+    top
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    align-items: center;
+    height: 90px;
+}
+.ulnav{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style-type:none;
+    position: relative;
+    right: 200px;
+   
+
+}
+.btn{
+    
+        
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+      
+}
+
+.ulnav li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color:gray;
+    
+}
+a:hover{
+    color:black;
+}
