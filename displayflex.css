@@ -1,50 +1,257 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-family: Proxima Nova; */
 }
 .container{
-    width: 90%;
+    width:80%;
     margin:auto;
-    top
 }
-header{
-    display:flex;
+
+.sect{
+    margin:auto;
+}
+    
+    
+
+
+header {
+    display: flex;
     justify-content: space-between;
-    width:90%;
+    width: 90%;
     align-items: center;
     height: 90px;
 }
-.ulnav{
-    display:flex;
+
+.ulnav {
+    display: flex;
     justify-content: space-between;
     font-size: 20px;
-    list-style-type:none;
+    list-style-type: none;
     position: relative;
-    right: 200px;
-   
+    right: 100px;
+
 
 }
-.btn{
-    
-        
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 30px;
-      
+
+.btn {
+
+
+    border: none;
+    color: purple;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-size: 26px;
+
+
 }
 
-.ulnav li a{
+.btn {
+    border: none;
+    color: #782cff;
+    padding: 0px 18px;
+    text-align: center;
+    background: #f4edfe;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.4rem;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: purple;
+}
+
+.ulnav li a {
     margin-right: 20px;
     text-decoration: none;
+    color: gray;
+
+}
+
+.ulnav li a:hover {
+    color: black;
+}
+
+.col {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+.sect .row .col p{
+    margin:50px 50px 0px 0px;
+}
+
+.btn2 {
+
+    border:solid 3px #03c3a4;
+    position: relative;
+    top: 40px;
+    padding: 10px 20px 10px 20px;
+    width: 185px;
+    background-color: #03c3a4;
+    color: white;
+
+    font-size: 1.6rem;
+    font-family: Proxima Nova;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    border-color: #ccefe9;
+    
+   
+}
+.row .col h1 {
+    margin: 50px 0px 50px 0px;
+
+}
+
+.join-us__image {
+    width: 125%;
+    height: 125%;
+    margin-top: -20px;
+    margin-left: -60px;
+    object-fit: scale-down;
+}
+
+.sect {
+    display: flex;
+    width: 100%
+}
+.col{
+    width:50%;
+}
+.step__image{
+    width: 70%;
+    height: 385%;
+    margin-top: -20px;
+    margin-left: -60px;
+    object-fit: scale-down;
+}#f7f7f7
+.step2{
+    display:flex;
+    align-items: center;
+}
+.step__info__number {
+   
+   vertical-align: middle;
+    margin:0 50px;
+    width: 8.6rem;
+    order: 1;
+}
+.step__info__number{
+    margin:0px 0px 50px 0px;
+}
+
+.navbar-brand2{
     color:gray;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.footer-menu svg{
+    width: 16px;
+    height: 16px;
+}
+.footer-menu{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    width:90%;
+    height: 40%;
+}
+.ftr1 li a{
+    color:gray;
+    align-items: center;
+   
+}
+.ftr2 li a{
+    
+    color:gray;
+}
+.ftr1 li{
+    margin:30px 0 0 0;
+}
+.ftr2 li{
+    margin:30px 0 0 0;
+}
+.footer-subs{
+    position: relative;
+}
+input{
+    width: 204px;
+    height: 28%;
+    padding: 8px 55px 8px 16px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    background-color:gray;
     
 }
-a:hover{
+.footer-subs input{
+    width: 204px;
+    padding: 8px 55px 8px 16px;
+    border-radius: 56px;
+    border: none;
+    background-color: #fff;
+}
+.footer-subs button{
+    position: absolute;
+    background-color: #03c3a4;
+    right: 0;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 16px;
+    height: 40px;
+}
+.sociable a{
+    background-color: gray;
+    border-radius: 50%;
+      width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+
+}
+.sociable{
+    display:flex;
+    margin:25px 0 0 0 ;
+}
+.sociable a i{
+    color:white;
+    font-size: 20px;
+}
+.sociable a:hover{
+    background-color:#03c3a4;
+}
+body{
+    background-color: #f7f7f7;
+}
+p{
+color:#4E4E4E;
+}
+h1{
+    color:#4E4E4E; 
+}
+.footer-menu li a:hover{
     color:black;
 }
